@@ -1,10 +1,29 @@
 @charset "UTF-8";
 
 :root{
-    
+    --font-padrao: 'Courier new', Consolas, Helvetica, sans-serif;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: var(--font-padrao);
+    text-align: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1250px;
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 500px;
+    margin: 1em;
+}
+
+h1{
+    padding: 1em;
 }
