@@ -11,10 +11,13 @@
     --cor-texto-primario: #262626;
     --cor-texto-secundario: #ACACAC;
 
-    --font-padrao: 'Courier new', Consolas, Helvetica, sans-serif;
+    --font-padrao: Consolas, Helvetica, sans-serif;
 }
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body{
     font-family: var(--font-padrao);
@@ -22,6 +25,7 @@ body{
     min-width: 300px;
     max-width: 1250px;
     background-color: var(--cor-de-fundo);
+    line-height: 1.5em;
 }
 
 main{
@@ -37,18 +41,26 @@ img#build{
 h1{
     color: var(--cor-texto-primario);
     text-align: center;
+    margin-top: 1em;
 }
 
 h2{
     color: var(--cor-texto-primario);
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 table{
     border-collapse: collapse;
 }
 
-thead  th, .destaque{
+thead  th{
     font-weight: bold;
     background-color: rgb(131, 131, 131);
     color: white;
@@ -59,10 +71,23 @@ td, th{
     padding: 8px;
 }
 
+dd{
+    margin-inline-start: 2em;
+    margin-block-end: 1em;
+}
+
 .destaque{
     text-align: left;
 }
 
 div#container{
     overflow-x: auto;
+}
+
+p{
+    margin-block-end: 1em;
+}
+
+ol{
+    list-style-position: inside;
 }
