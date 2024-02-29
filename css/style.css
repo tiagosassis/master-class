@@ -67,7 +67,7 @@ thead  th{
 }
 
 td, th{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 8px;
 }
 
@@ -88,6 +88,6 @@ p{
     margin-block-end: 1em;
 }
 
-ol{
+ol, ul{
     list-style-position: inside;
 }
