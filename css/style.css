@@ -43,3 +43,26 @@ h2{
     color: var(--cor-texto-primario);
     text-align: center;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+thead  th, .destaque{
+    font-weight: bold;
+    background-color: rgb(131, 131, 131);
+    color: white;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.destaque{
+    text-align: left;
+}
+
+div#container{
+    overflow-x: auto;
+}
